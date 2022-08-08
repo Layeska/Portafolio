@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+:root {
+    --bg-primary: #FFFFFF;
+    --bg-secundary: #FCDA68;
+    --bg-icons: #F9F5F2;
+    --icons: #8E7BEF;
+    --letter: #222222;
+    --subtittle: #423f40;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* -- Menu de navegación -- */
+.margen {
+    margin: 7rem 13rem;
+}
+
+.menu-desplega {
+    display: none;
+}
+
+.nav-head {
+    display: flex;
+    justify-content: flex-end;
+    gap: 7.5rem;
+    padding: 0;  
+}
+
+.nav-head a { 
+    text-decoration: none;
+    color: var(--subtittle);
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.nav-head a:hover {
+    cursor: pointer;
+    color: var(--icons);
+    font-weight: 700;
+}
+
+
+/* -- Baner principal --*/
+
+.principal-view {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ++  Mensaje de la izquierda ++ */
+
+/*@  El título grande */
+.mensaje-principal h1 {
+    font-weight: 700;
+    font-size: 9.5rem;
+    line-height: 9rem;
+    letter-spacing: -0.3rem;
+    margin-top: 1.1rem;
+    color: var(--letter);
+}
+
+
+/*@  El párrafo lorem ipsum */
+.mensaje-principal .relleno {
+    font-weight: 400;
+    color: var(--subtittle);
+    font-size: 3.5rem;
+    margin: -3rem 0 3.8rem 0;
+    line-height: 4.2rem;
+}
+
+/*@  El subtitulo "+5 años de experiencia" */
+.mensaje-principal #spam  {
+    color: var(--letter);
+    opacity: 0.5;
+    display: inline;
+    font-size: 2.6rem;
+}
+
+.mensaje-principal span {
+    color: var(--icons);
+    font-size: 2.6rem;
+}
+
+/*@  Íconos */
+.icons {
+    display: flex;
+    flex-grow: row nowrap;
+    align-items: flex-end;
+    gap: 3rem;
+    margin: 2.5rem 0rem 0rem 0rem;
+    text-align: center;
+    height: 4rem;
+    width: 35%;
+}
+
+.icon {
+    background: var(--icons);
+    width: 4.3rem;
+    height: 4.3rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 2.1rem;
+    border-radius: 50%;
+}
+
+.icon svg {
+    margin-top: 1.5rem;
+}
+
+/*@  Botón de contáctame */
+.btn {
+    background: var(--icons);
+    width: 45%;
+    height: 5rem;
+    margin: 9rem 0rem 0rem 0rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.btn a {
+    color: var(--bg-primary);
+    text-decoration: none;
+}
+
+/* -- Experiencias y Habilidades */
+
+/* @ Banner principal de Experiencias y Habilidades */
+
+.medio {
+    background: var(--bg-secundary);
+    margin-top: 10rem;
+    height: 60rem;
+}
+
+/*@ Experiencias*/
+.experiencias {
+    display: flex;
+}
+
+/* @ Parte izquierda */
+.experiencias .izq {
+    width: 50%;
+}
+
+.izq h2 {
+    font-size: 4rem;
+    width: 60%;
+    color: var(--letter);
+}
+
+.izq p {
+    font-size: 2.5rem;
+    width: 80%;
+    color: var(--subtittle);
+}
+
+/* @ Parde de la derecha */
+.bold {
+    font-weight: 700;
+}
+
+.experiencias .derecha {
+    width: 50%;
+}
+
+.derecha .one {
+    display: flex;
+    gap: 2rem;
+    font-size: 2rem;
+    
+}
+
+.one p {
+    color: var(--subtittle);
+    line-height: 0.2em;
+}
+
+.habilidades {
+    margin-top: -5rem;
+}
+
+hr {
+    border: var(--subtittle);
+    background: var(--subtittle);
+    height: 1px;
+}
+
+/*@ Habilidades */
+
+.iconos {
+    width: 70%;
+    display: flex;
+    text-align: center;
+    margin-left: 20rem;
+    justify-content: space-around;
+}
+
+.iconos .centrar p {
+    width: 15rem;
+}
+
+.centrar:hover {
+   width: fit-content;
+   margin-top: -2rem;
+}
+
+/* -- Portafolio --*/
+
+.p3 {
+    font-size: 5rem;
+    margin-top: 8.4rem;
+    color: var(--letter);
+}
+
+.portafolio {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -7rem;
+}
+
+.moverimg {
+    margin-top: 1.5rem;
+}
+
+.portafolio #p1 {
+    margin-left: 0;
+}
+
+.portafolio p {
+    color: var(--icons);
+    font-weight: 600;
+    font-size: 2rem;
+    height: 3rem;
+    margin-left: 2rem;
+    margin-bottom: -1rem;
+}
+
+/*-- Area de contacto --*/
+
+.contacto h2 {
+    font-weight: 700;
+    font-size: 5rem;
+    color: var(--subtittle);
+}
+
+.contacto .iconos-bajo {
+    display: flex;
+    justify-content: center;
+    gap: 20rem;
+}
+
+.iconos-bajo .icon-div {
+    background: var(--bg-icons);
+    border-radius: 4rem;
+    width: 20rem;
+    height: 18rem;
+}
+
+.icon-div svg {
+    margin: 5rem 0rem 0rem 1rem;
+    width: 18rem;
+    height: 8rem;
+}
+
+.icon-div p {
+    margin-top: 6.5rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--subtittle);
+}
+
+.icon-div .edit {
+    margin-top: 3rem;
+    opacity: 0.5;
+}
+
+/* -- Pie de página --*/
+footer p {
+    color: var(--icons);
+    margin-top: 20rem;
+    text-align: center;
+    font-size: 2rem;
+    height: 8rem;
+}
