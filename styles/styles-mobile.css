@@ -66,7 +66,7 @@
 
 /*-- Reponsive más parecido a la imagen que proporcionaron--*/
 
-@media (max-width: 600px)  {
+@media (max-width: 500px)  {
 
     .margen {
         margin: 3rem 5rem;
