@@ -1,0 +1,315 @@
+
+@media (max-width: 1280px)  {
+
+    .margen {
+        margin: 5rem 13rem;
+    }
+
+    /*body {
+        background: #bfd4ad;
+    }*/
+
+    .nav-head {
+        gap: 5rem;
+    }
+
+    .mensaje-principal h1 {
+        font-size: 8rem;
+        margin: 0rem 5rem 5rem 0rem;
+    }
+
+    .mensaje-principal .relleno {
+        font-size: 3rem;
+        line-height: 4rem;
+        margin: -2rem 0 3rem 0;
+    }
+
+    .imagen-principal {
+        width: 450px;
+        height: 400px;
+    }
+
+    .medio {
+        margin: auto;
+    }
+
+    .portafolio {
+        display: inline-flex;
+        width: 100rem;
+        height: 43rem;
+        /*overflow-x: scroll;
+        scroll-behavior: auto;*/
+    }
+
+    .port {
+        width: fit-content;
+    }
+
+    .iconos-bajo {
+        width: 100rem;
+    }
+
+    .iconos-bajo .icon-div {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .icon-div svg {
+        margin: 4rem 0rem 0rem -1rem;
+    }
+
+    footer {
+        margin: 0rem -2rem 0rem 0rem;
+    }
+
+}
+
+/*-- Reponsive más parecido a la imagen que proporcionaron--*/
+
+@media (max-width: 600px)  {
+
+    .margen {
+        margin: 2.5rem 5rem;
+       /* background: #70e000;*/
+        text-align: center;
+    }
+
+    .menu-desplega {
+        display: block;
+        margin-left: 80%;
+        margin-top: 1.5rem;
+        width: 55px;
+        height: 65px;
+    }
+
+    .nav-head {
+        display: none;
+    }
+
+    .principal-view {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mensaje-principal h1 {
+        font-size: 4rem;
+        width: 44rem;
+        text-align: center;
+        margin-right: -0.3rem;
+        margin-top: -5rem;
+    }
+
+    .mensaje-principal .relleno {
+        font-size: 2rem;
+        line-height: 3rem;
+        width: 40rem;
+        margin: -5rem 0rem 1rem 2rem;
+    }
+
+    .mensaje-principal #spam {
+        font-size: 1.8rem;
+    }
+
+    .mensaje-principal span {
+        font-size: 1.8rem;
+    }
+
+    .icons {
+        margin-left: 13rem;
+        margin-top: 0.5rem;
+        width: 40%;
+        height: 10%;
+    }
+
+    .icon {
+        margin: 3rem 0rem -1.5rem 0rem;
+        text-align: center;
+    }
+
+    .icon svg {
+        margin-top: 1rem;
+    }
+
+    .imagen-principal {
+       position: relative;
+       margin: -53rem 0rem 10rem 0rem;
+    }
+
+    .imagen-principal img  {
+        width: 230px;
+        height: 280px;
+    }
+
+    .btn {
+        margin: 40rem 0rem 13rem 9rem ;
+        width: 26rem;
+    }
+
+    /*++ Experiencia y habilidades ++*/
+
+    .medio {
+        display: flex;
+        flex-direction: column;
+        height: 130rem;
+    }
+
+    .experiencias {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .izq h2 {
+        margin-left: -16rem;
+        margin-top: 2rem;
+        font-size: 4rem;
+        width: 30rem;
+        line-height: 5rem;        
+    }
+
+    .izq p {
+        width: 55rem;
+        height: 8rem;
+        text-align: left;
+        font-size: 2.3rem;
+        margin: -1rem 0rem 2rem -14rem;
+    }
+
+    /*@ Experiencias */
+
+    .experiencias {
+        display: flex;
+        position: relative;
+        
+    }
+
+    .experiencias .derecha {
+        width: 50rem;
+    }
+
+    .derecha h2 {
+        font-size: 2rem;
+        margin-right: 40rem;
+    }
+    .derecha .one {
+        font-size: 2rem;
+    }
+
+    .detalle p {
+        text-align: left;
+        font-size: 1.7rem;
+    }
+
+    /*@ Habilidades */
+
+    .habilidades {
+        width: 10rem;
+    }
+
+    .habilidades h2 {
+        font-size: 2rem;
+        margin-left: -3rem;
+    }
+
+    .iconos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .centrar {
+        
+        width: 13rem;
+    }
+
+    .centrar:hover {
+        width: fit-content;
+        margin-top: -2rem;
+    }
+
+    .centrar p {
+        
+        padding: 1rem;
+        margin-left: -2rem;
+    }
+
+    /* ++ Portafolio ++ */
+
+    .p3 {
+        font-size: 3.4rem;
+        text-align: left;
+    }
+    
+
+    /*::-webkit-scrollbar {
+        display: none;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }*/
+
+    .portafolio {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+      /*  background: rebeccapurple;*/
+        text-align: left;
+        width: 46rem;
+        height: 125rem;        
+    }
+
+    /*.port {
+        background: green;
+        border: -10rem;
+       
+    }*/
+    .port img {
+        width: 350px;
+        height: 300px;
+    }
+
+    /*@ contacto */
+
+    .contacto h2 {
+        font-size: 3.4rem;
+        font-weight: 700;
+    }
+
+    .contacto .iconos-bajo {
+        width: 50rem;
+        gap: 12rem;
+    }
+
+    .iconos-bajo .icon-div {
+        border-radius: 50%;
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .icon-div svg {
+        width: 10rem;
+        height: 5rem;
+        margin: 2.5rem 0rem 0rem 0rem;
+    }
+
+   .icon-div p {
+        margin: 4rem 0rem 0rem 1rem;
+        width: 20rem;
+        height: 1rem;
+        margin-left: -4rem;
+   }
+
+   .icon-div .edit {
+        color: var(--subtittle);
+        font-size: 1.8rem;
+        margin-top: 2rem;
+   }
+
+   footer p {
+    font-size: 2.5rem;
+   }
+
+}
