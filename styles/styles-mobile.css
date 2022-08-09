@@ -150,6 +150,7 @@
     .medio {
         display: flex;
         flex-direction: column;
+        width: 100%;
         height: 130rem;
     }
 
@@ -160,7 +161,7 @@
     }
 
     .izq h2 {
-        margin-left: -16rem;
+        margin-left: -13rem;
         margin-top: 2rem;
         font-size: 4rem;
         width: 30rem;
@@ -168,11 +169,11 @@
     }
 
     .izq p {
-        width: 55rem;
+        width: 35rem;
         height: 8rem;
         text-align: left;
-        font-size: 2.3rem;
-        margin: -1rem 0rem 2rem -14rem;
+        font-size: 1.8rem;
+        margin: -1rem 0rem 2rem -11rem;
     }
 
     /*@ Experiencias */
@@ -189,15 +190,17 @@
 
     .derecha h2 {
         font-size: 2rem;
-        margin-right: 40rem;
+        margin-right: 23rem;
     }
     .derecha .one {
         font-size: 2rem;
+        margin-left: 7rem;
     }
 
     .detalle p {
         text-align: left;
         font-size: 1.7rem;
+        margin-left: 1.5rem;
     }
 
     /*@ Habilidades */
