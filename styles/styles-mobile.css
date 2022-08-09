@@ -206,23 +206,24 @@
     /*@ Habilidades */
 
     .habilidades {
-        width: 10rem;
+        margin-top: -1rem;
     }
 
     .habilidades h2 {
         font-size: 2rem;
-        margin-left: -3rem;
+        margin-left: -24rem;
+        padding: 1rem;
     }
 
     .iconos {
         display: flex;
+        margin-left: 5rem;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
     .centrar {
-        
         width: 13rem;
     }
 
@@ -241,7 +242,7 @@
 
     .p3 {
         font-size: 3.4rem;
-        text-align: left;
+        margin-left: -15rem;
     }
     
 
@@ -256,20 +257,13 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        
-      /*  background: rebeccapurple;*/
         text-align: left;
-        width: 46rem;
+        width: 30rem;
         height: 125rem;        
     }
 
-    /*.port {
-        background: green;
-        border: -10rem;
-       
-    }*/
     .port img {
-        width: 350px;
+        width: 300px;
         height: 300px;
     }
 
@@ -278,40 +272,42 @@
     .contacto h2 {
         font-size: 3.4rem;
         font-weight: 700;
+        margin-left: -20rem;
     }
 
     .contacto .iconos-bajo {
-        width: 50rem;
+        width: 25rem;
         gap: 12rem;
     }
 
     .iconos-bajo .icon-div {
         border-radius: 50%;
-        width: 10rem;
-        height: 10rem;
+        width: 8rem;
+        height: 8rem;
+        margin-left: 6rem;
     }
 
     .icon-div svg {
-        width: 10rem;
-        height: 5rem;
-        margin: 2.5rem 0rem 0rem 0rem;
+        width: 8rem;
+        height: 4rem;
+        margin: 2rem 0rem 0rem 0rem;
     }
 
    .icon-div p {
-        margin: 4rem 0rem 0rem 1rem;
-        width: 20rem;
-        height: 1rem;
-        margin-left: -4rem;
+       margin: 3rem 0rem 1rem -6rem;
+       width: 20rem;
+       height: 1rem;
+       font-size: 1em;
    }
 
    .icon-div .edit {
         color: var(--subtittle);
-        font-size: 1.8rem;
+        font-size: 1.3rem;
         margin-top: 2rem;
    }
 
    footer p {
-    font-size: 2.5rem;
+    font-size: 2rem;
    }
 
 }
